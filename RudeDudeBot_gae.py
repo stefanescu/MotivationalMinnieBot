@@ -26,7 +26,7 @@ updater = Updater(token='nonono')
 dispatcher = updater.dispatcher
 
 def getInsult():
-    page = requests.get('http://www.insultgenerator.org/')
+    page = requests.get('website')
     soup = bs4.BeautifulSoup(page.text, "html.parser")
     text = soup.select('.wrap br br')
     return text[0].getText()
