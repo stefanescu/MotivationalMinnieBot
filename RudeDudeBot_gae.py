@@ -21,7 +21,7 @@ def hello():
 def page_not_found(e):
     """Return a custom 404 error."""
     return 'Sorry, nothing at this URL.', 404
-updater = Updater(token='271982035:AAFbB6D8nXPQGIyVI5lF9Y76qjQQbjD6ucc')
+updater = Updater(token='nonono')
 
 dispatcher = updater.dispatcher
 
