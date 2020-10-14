@@ -9,7 +9,7 @@ Used to run on Google App Engine. Porting to Cloud Run SOON
 
 # How it works:
 1. Telegram bot api Webhook waits for REST hit from Telegram chat
-1. Hits www.insultsgenerator.org
+1. Hits *website*, gets string
 3. Parse and return string to Telegram bot api
 
 # Dependencies:
