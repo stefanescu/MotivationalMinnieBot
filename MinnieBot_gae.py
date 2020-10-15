@@ -32,7 +32,7 @@ def getInsult():
     return text[0].getText()
 
 def start(bot, update):
-    bot.sendMessage(chat_id=update.message.chat_id, text="RudeDude reporting for duty! Use me inline with people you despise.")
+    bot.sendMessage(chat_id=update.message.chat_id, text="Minnie reporting for duty! Use me inline with people you LOVE.")
 
 def rudeResponse(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text=getInsult())
